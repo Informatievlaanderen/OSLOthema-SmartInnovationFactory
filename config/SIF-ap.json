@@ -1,18 +1,18 @@
 [
-{
-  "name": "smart-innovation-factory-ap",
-  "type": "ap",
-  "eap": "OSLO-SIF-AP.eap",
-  "diagram": "MijnApplicatieprofiel",
-  "template": "SIF-ap.j2",
-  "title": "Smart Innovation Factory - Implementatiemodel",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2025-06-04",
-  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-  "contributors-file": "stakeholders.csv",
-  "contributors-column": "MijnKolom",
-  "site": "site-skeletonmijn-applicatieprofiel-ap",
-  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/Implementatiemodel-Smart-Innovation-factory/"
-}
+  {
+    "name": "smart-innovation-factory",
+    "type": "ap",
+    "eap": "OSLO-SIF-AP.eap",
+    "diagram": "MijnApplicatieprofiel",
+    "template": "SIF-ap.j2",
+    "title": "Smart Innovation Factory - Implementatiemodel",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "publication-date": "2025-06-04",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "MijnKolom",
+    "site": "site-skeleton/SmartInnovationFactory-ap",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/Implementatiemodel-Smart-Innovation-factory/"
+  }
 ]
