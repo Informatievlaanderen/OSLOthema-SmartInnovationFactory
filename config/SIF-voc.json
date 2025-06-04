@@ -1,7 +1,7 @@
 [
 {
   "name": "Vocabularium Smart Innovation Factory",
-  "type": "impl",
+  "type": "voc",
   "eap": "OSLO-SIF-VOC.eap",
   "diagram": "MijnApplicatieprofiel",
   "template": "SIF-voc.j2",
