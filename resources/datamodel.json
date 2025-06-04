@@ -1,0 +1,258 @@
+{
+  "@type": "Melding",
+  "datum": "2023-11-02T12:00:00",
+  "heeftBody": {
+    "@type": "Meldingbody",
+    "beschrijving": {
+      "@value": "Dit is een melding over een verkeersincident waar een voertuig betrokken is bij een ongeluk op hoge snelheid.",
+      "@language": "nl"
+    },
+    "bijlage": {
+      "@type": "Document",
+      "@id": "http://example.com/path/to/document.pdf"
+    },
+    "verkeersincident": {
+      "@type": "Verkeersincident",
+      "datum": "2023-11-02T10:00:00",
+      "locatie": {
+        "@type": "Locatie"
+      },
+      "type": {
+        "@type": "Incidenttype",
+        "@value": "http://example.com/code/snelheid"
+      }
+    }
+  },
+  "heeftStatus": {
+    "@type": "Meldingsstatus",
+    "beschrijving": {
+      "@value": "De melding is in behandeling.",
+      "@language": "nl"
+    },
+    "statusdatum": "2023-11-02T13:00:00",
+    "statuswaarde": {
+      "@type": "Concept",
+      "@value": "http://example.com/code/inBehandeling"
+    },
+    "statuswijzigingDoor": {
+      "@type": "Agent",
+      "naam": "Alexander Potloot",
+      "rapporteertAan": {
+        "@type": "Agent",
+        "naam": "Benjamin Vermeulen"
+      }
+    }
+  },
+  "indiener": {
+    "@type": "Agent",
+    "naam": "Isabaut Martens",
+    "rapporteertAan": {
+      "@type": "Agent",
+      "naam": "Dimitri Van Baelen"
+    }
+  },
+  "behandelaar": {
+    "@type": "Agent",
+    "naam": "Laurens Vercauteren",
+    "rapporteertAan": {
+      "@type": "Agent",
+      "naam": "Anna Monteyne"
+    }
+  },
+  "meldingstype": {
+    "@type": "Meldingstype",
+    "@value": "http://example.com/code/verkeersincident"
+  },
+  "samenvatting": {
+    "@value": "Een kort overzicht van het verkeersincident.",
+    "@language": "nl"
+  },
+  "titel": {
+    "@value": "Verkeersincident op Hoofdstraat",
+    "@language": "nl"
+  },
+  "webpagina": {
+    "@id": "http://example.com/path/to/webpagina"
+  },
+  "meldingsapplicatie": {
+    "@type": "Applicatie"
+  },
+  "geeftContextAan": {
+    "@type": "Verkeersmeting",
+    "fenomeenTijd": {
+      "@type": "TemporeleEntiteit"
+    },
+    "resultaat": {
+      "@type": "any"
+    },
+    "resultaatkwaliteit": {
+      "@type": "Kwaliteitselement"
+    },
+    "resultaatTijd": {
+      "@type": "Moment"
+    },
+    "uitgevoerdDoor": {
+      "@type": "Agent",
+      "naam": "Pieter Heyvaert",
+      "rapporteertAan": {
+        "@type": "Agent",
+        "naam": "Pieter Dresselaers"
+      }
+    },
+    "gaatOver": {
+      "@type": "Verkeersincident",
+      "datum": "2023-11-02T10:00:00",
+      "locatie": {
+        "@type": "Locatie"
+      },
+      "type": {
+        "@type": "Incidenttype",
+        "@value": "http://example.com/code/snelheid"
+      }
+    },
+    "uitgevoerdMet": {
+      "@type": "Sensor",
+      "ligging": {
+        "@type": "Locatie"
+      },
+      "gehostDoor": {
+        "@type": "Toestel",
+        "fabrikant": {
+          "@value": "SensorTech Co.",
+          "@language": "nl"
+        },
+        "model": {
+          "@value": "ST-2000",
+          "@language": "nl"
+        },
+        "functie": {
+          "@type": "Functie"
+        },
+        "taak": {
+          "@type": "Taak"
+        }
+      }
+    },
+    "geobserveerdObject": {
+      "@type": "Verkeersobject",
+      "verkeersdomeinobject": [
+        {
+          "@type": "Rijrichting",
+          "netwerkreferentie": {
+            "@type": "Netwerkreferentie",
+            "element": {
+              "@type": "Netwerkelement"
+            }
+          },
+          "richting": {
+            "@type": "Linkrichtingtype",
+            "@value": "http://example.com/code/gelijklopend"
+          }
+        },
+        {
+          "@type": "Rijstrook",
+          "netwerkreferentie": {
+            "@type": "Netwerkreferentie",
+            "element": {
+              "@type": "Netwerkelement"
+            }
+          },
+          "rijstrook": {
+            "@type": "Identificator",
+            "@value": "Rijstrook 1",
+            "gestructureerdeIdentificator": {
+              "@type": "GestructureerdeIdentificator",
+              "lokaleIdentificator": "Rijstrook1",
+              "naamruimte": "http://example.com/namespace/rijstroken",
+              "versieIdentificator": "v1",
+              "identificator": {
+                "@type": "GetypeerdeString",
+                "string": "Rijstrook1-GS-ID",
+                "type": "http://example.com/identifier"
+              },
+              "toegekendDoor": {
+                "@type": "Agent",
+                "naam": "Benjamin Vermeulen"
+              },
+              "toegekendDoorString": "NietBestaandeAgent",
+              "toegekendOp": "2023-11-01T15:30:00"
+            }
+          },
+          "rijstrooktype": {
+            "@type": "Rijstrooktype",
+            "@value": "http://example.com/code/invoegstrook"
+          }
+        },
+        {
+          "@type": "Voertuig",
+          "voertuigtype": {
+            "@type": "Codelijst",
+            "@value": ""
+          }
+        },
+        {
+          "@type": "Wegobject",
+          "wegsegment": {
+            "@type": "Wegsegment",
+            "geometriemiddenlijn": {
+              "@type": "Lijnstring",
+              "wkt": {
+                "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                "@value": "LINESTRING(4.895168 52.370216, 4.895065 52.370315)"
+              },
+              "gml": {
+                "@type": "http://www.opengis.net/ont/geosparql#gmlLiteral",
+                "@value": "<gml><LineString><coordinates>4.895168,52.370216 4.895065,52.370315</coordinates></LineString></gml>"
+              }
+            },
+            "eindknoop": {
+              "@type": "Wegknoop",
+              "geometrie": {
+                "@type": "Punt",
+                "wkt": {
+                  "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                  "@value": "POINT(4.895168 52.370216)"
+                },
+                "gml": {
+                  "@type": "http://www.opengis.net/ont/geosparql#gmlLiteral",
+                  "@value": "<gml><Point><coordinates>4.895168,52.370216</coordinates></Point></gml>"
+                }
+              }
+            }
+          },
+          "wegknoop": {
+            "@type": "Wegknoop",
+            "geometrie": {
+              "@type": "Punt",
+              "wkt": {
+                "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                "@value": "POINT(4.895168 52.370216)"
+              },
+              "gml": {
+                "@type": "http://www.opengis.net/ont/geosparql#gmlLiteral",
+                "@value": "<gml><Point><coordinates>4.895168,52.370216</coordinates></Point></gml>"
+              }
+            }
+          },
+          "weglinksequentie": {
+            "@type": "Weglinksequentie",
+            "link": {
+              "@type": "GerichteLink",
+              "link": {
+                "@type": "Link"
+              },
+              "richting": {
+                "@type": "Teken",
+                "@value": "http://example.com/code/plus"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "leidtTot": {
+      "@type": "Verkeersmeting",
+      "@id": "_:VolgendeMeting"
+    }
+  }
+}
