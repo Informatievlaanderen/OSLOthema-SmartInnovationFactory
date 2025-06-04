@@ -11,11 +11,12 @@
   ],
   "publicationDate": "2025-06-04",
   "descriptionFileName": "SIF-description.md",
-  "specificationDocuments": 
+  "specificationDocuments": [
     {
-      "name": "Vocabularium Smart Innovation Factory",
-      "resourceReference": "https://data.vlaanderen.be/ns/SIF/"
+      "name": "Smart Innovation Factory Implementatiemodel",
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/SIF"
     }
+  ],
   "documentation": [
   {
       "name": "Vocabularium Smart Innovation Factory",
