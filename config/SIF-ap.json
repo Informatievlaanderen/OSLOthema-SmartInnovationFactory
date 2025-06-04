@@ -1,7 +1,7 @@
 [
 {
-  "name": "Implementatiemodel Smart Innovation Factory",
-  "type": "impl",
+  "name": "smart-innovation-factory-ap",
+  "type": "ap",
   "eap": "OSLO-SIF-AP.eap",
   "diagram": "MijnApplicatieprofiel",
   "template": "SIF-ap.j2",
