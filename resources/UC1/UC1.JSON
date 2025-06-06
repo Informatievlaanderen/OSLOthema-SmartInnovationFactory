@@ -1,0 +1,127 @@
+[
+  {
+    "@type": "Melding",
+    "datum": "2023-11-02T09:00:00",
+    "heeftBody": {
+      "@type": "Meldingbody",
+      "beschrijving": {
+        "@value": "Stijging in het aantal meldingen van fout geparkeerde auto's in de Dorpstraat gedurende de afgelopen drie dagen.",
+        "@language": "nl"
+      },
+      "verkeersincident": {
+        "@type": "Verkeersincident",
+        "datum": "2023-10-30",
+        "locatie": {
+          "@type": "Locatie",
+          "adres": {
+            "straatnaam": {
+              "@value": "Dorpstraat",
+              "@language": "nl"
+            },
+            "gemeentenaam": {
+              "@value": "Mechelen",
+              "@language": "nl"
+            }
+          }
+        },
+        "type": {
+          "@id": "http://example.com/code/parkeren"
+        }
+      }
+    },
+    "titel": {
+      "@value": "Stijging meldingen foutparkeren in Dorpstraat",
+      "@language": "nl"
+    },
+    "samenvatting": {
+      "@value": "Een kort overzicht van het verkeersincident.",
+      "@language": "nl"
+    },
+    "meldingstype": {
+      "@type": "Meldingstype",
+      "@value": "http://example.com/code/verkeersincident"
+    },
+    "indiener": {
+      "@type": "Agent",
+      "naam": "Isabaut Martens"
+    }
+  },
+  {
+    "@type": "Verkeersmeting",
+    "fenomeenTijd": {
+      "@type": "TemporeleEntiteit",
+      "startdatum": "2023-10-29",
+      "einddatum": "2023-11-01"
+    },
+    "gaatOver": [
+      {
+        "@type": "Verkeersincident",
+        "datum": "2023-10-29",
+        "locatie": {
+          "@type": "Locatie",
+          "adres": {
+            "straatnaam": {
+              "@value": "Omliggende straten",
+              "@language": "nl"
+            },
+            "gemeentenaam": {
+              "@value": "Mechelen",
+              "@language": "nl"
+            }
+          }
+        },
+        "type": {
+          "@id": "http://example.com/code/sluipverkeer"
+        }
+      },
+      {
+        "@type": "Verkeersincident",
+        "datum": "2023-10-30",
+        "locatie": {
+          "@type": "Locatie",
+          "adres": {
+            "straatnaam": {
+              "@value": "Omliggende straten",
+              "@language": "nl"
+            },
+            "gemeentenaam": {
+              "@value": "Mechelen",
+              "@language": "nl"
+            }
+          }
+        },
+        "type": {
+          "@id": "http://example.com/code/sluipverkeer"
+        }
+      },
+      {
+        "@type": "Verkeersincident",
+        "datum": "2023-11-01",
+        "locatie": {
+          "@type": "Locatie",
+          "adres": {
+            "straatnaam": {
+              "@value": "Omliggende straten",
+              "@language": "nl"
+            },
+            "gemeentenaam": {
+              "@value": "Mechelen",
+              "@language": "nl"
+            }
+          }
+        },
+        "type": {
+          "@id": "http://example.com/code/sluipverkeer"
+        }
+      }
+    ],
+    "titel": {
+      "@value": "Verkeersmeting van sluipverkeer in omliggende straten",
+      "@language": "nl"
+    },
+    "samenvatting": {
+      "@value": "Een kort overzicht van de verkeersmeting in de omliggende straten.",
+      "@language": "nl"
+    }
+  }
+]
