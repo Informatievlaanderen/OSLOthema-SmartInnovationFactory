@@ -29,24 +29,24 @@
     "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/charter/Charter_OSLO_SIF.pdf"
   }
    ],
-  "reports": [
+   "reports": [
     {
       "name": "Verslag Business Werkgroep - 25 maart 2025",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/reports/Verslag%20BW%20OSLO%20SIF.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/reports/Verslag%20BW%20OSLO%20SIF.pdf"
     },
     {
       "name": "Verslag Thematische Werkgroep I - 29 april 2025",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/reports/Verslag%20TW1%20OSLO%20SIF.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/reports/Verslag%20TW1%20OSLO%20SIF.pdf"
     }
   ],
   "presentations":[
   {
       "name": "Presentatie Business Werkgroep -  25 maart 2025",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/presentations/BW%20Presentatie%20SIF.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/presentations/BW%20Presentatie%20SIF.pdf"
     },
     {
       "name": "Presentatie Thematische Werkgroep I - 29 april 2025",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/blob/standaardenregister/presentations/20250429_OSLOSIF_PresentatieThematischeWerkgroep1.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/standaardenregister/presentations/20250429_OSLOSIF_PresentatieThematischeWerkgroep1.pdf"
     }
   ],
   "dateOfRegistration": "TBD",
