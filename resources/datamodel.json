@@ -18,8 +18,7 @@
         "@type": "Locatie"
       },
       "type": {
-        "@type": "Incidenttype",
-        "@value": "http://example.com/code/snelheid"
+        "@id": "http://example.com/code/snelheid"
       }
     }
   },
@@ -106,8 +105,7 @@
         "@type": "Locatie"
       },
       "type": {
-        "@type": "Incidenttype",
-        "@value": "http://example.com/code/snelheid"
+        "@id": "http://example.com/code/snelheid"
       }
     },
     "uitgevoerdMet": {
@@ -145,8 +143,7 @@
             }
           },
           "richting": {
-            "@type": "Linkrichtingtype",
-            "@value": "http://example.com/code/gelijklopend"
+            "@id": "http://example.com/code/gelijklopend"
           }
         },
         {
@@ -179,15 +176,13 @@
             }
           },
           "rijstrooktype": {
-            "@type": "Rijstrooktype",
-            "@value": "http://example.com/code/invoegstrook"
+            "@id": "http://example.com/code/invoegstrook"
           }
         },
         {
           "@type": "Voertuig",
           "voertuigtype": {
-            "@type": "Codelijst",
-            "@value": ""
+            "@id": "http://example.com/code/voertuigtype"
           }
         },
         {
@@ -243,7 +238,7 @@
               },
               "richting": {
                 "@type": "Teken",
-                "@value": "http://example.com/code/plus"
+                "@id": "http://example.com/code/plus"
               }
             }
           }
