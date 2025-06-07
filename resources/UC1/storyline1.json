@@ -1,0 +1,326 @@
+{
+  "@context": "http://schema.org",
+  "storyLine": [
+    {
+      "@type": "Melding",
+      "meldingen": [
+        {
+          "datum": "2025-06-01T09:00:00",
+          "heeftBody": {
+            "@type": "Meldingbody",
+            "beschrijving": {
+              "@value": "Emiel meldt snelheidsovertredingen in de zone 30, wat de veiligheid van fietsers en voetgangers in gevaar brengt omdat auto’s te snel rijden.",
+              "@language": "nl"
+            },
+            "bijlage": {
+              "@type": "Document",
+              "@id": "http://example.com/documents/emiel-melding.pdf"
+            },
+            "verkeersincident": {
+              "@type": "Verkeersincident",
+              "datum": "2025-06-01",
+              "locatie": {
+                "@type": "Locatie",
+                "adres": {
+                  "straatnaam": {
+                    "@value": "Dorpstraat",
+                    "@language": "nl"
+                  },
+                  "gemeentenaam": {
+                    "@value": "Mechelen",
+                    "@language": "nl"
+                  }
+                }
+              },
+              "type": {
+                "@id": "http://example.com/code/snelheid"
+              }
+            }
+          },
+          "titel": {
+            "@value": "Snelheidsovertredingen in Dorpstraat door Emiel",
+            "@language": "nl"
+          },
+          "samenvatting": {
+            "@value": "Een kort overzicht van snelheidsovertredingen die de veiligheid van fietsers en voetgangers bedreigen.",
+            "@language": "nl"
+          },
+          "meldingstype": {
+            "@id": "http://example.com/code/verkeersincident"
+          },
+          "indiener": {
+            "@type": "Agent",
+            "naam": "Emiel"
+          },
+          "heeftStatus": {
+            "@type": "Meldingsstatus",
+            "beschrijving": {
+              "@value": "De melding is in behandeling.",
+              "@language": "nl"
+            },
+            "statusdatum": "2025-06-01T10:00:00",
+            "statuswaarde": {
+              "@type": "Concept",
+              "@value": "http://example.com/code/inBehandeling"
+            },
+            "statuswijzigingDoor": {
+              "@type": "Agent",
+              "naam": "Alexander Potloot"
+            }
+          },
+          "webpagina": {
+            "@id": "https://www.mechelen.be/meldingsapplicatie"
+          },
+          "meldingsapplicatie": {
+            "@type": "Applicatie"
+          }
+        },
+        {
+          "datum": "2025-06-02T09:00:00",
+          "heeftBody": {
+            "@type": "Meldingbody",
+            "beschrijving": {
+              "@value": "Cassandra meldt snelheidsovertredingen in de zone 30, wat de veiligheid van fietsers en voetgangers in gevaar brengt omdat auto’s te snel rijden.",
+              "@language": "nl"
+            },
+            "bijlage": {
+              "@type": "Document",
+              "@id": "http://example.com/documents/cassandra-melding.pdf"
+            },
+            "verkeersincident": {
+              "@type": "Verkeersincident",
+              "datum": "2025-06-02",
+              "locatie": {
+                "@type": "Locatie",
+                "adres": {
+                  "straatnaam": {
+                    "@value": "Dorpstraat",
+                    "@language": "nl"
+                  },
+                  "gemeentenaam": {
+                    "@value": "Mechelen",
+                    "@language": "nl"
+                  }
+                }
+              },
+              "type": {
+                "@id": "http://example.com/code/snelheid"
+              }
+            }
+          },
+          "titel": {
+            "@value": "Snelheidsovertredingen in Dorpstraat door Cassandra",
+            "@language": "nl"
+          },
+          "samenvatting": {
+            "@value": "Een kort overzicht van snelheidsovertredingen die de veiligheid van fietsers en voetgangers bedreigen.",
+            "@language": "nl"
+          },
+          "meldingstype": {
+            "@id": "http://example.com/code/verkeersincident"
+          },
+          "indiener": {
+            "@type": "Agent",
+            "naam": "Cassandra"
+          },
+          "heeftStatus": {
+            "@type": "Meldingsstatus",
+            "beschrijving": {
+              "@value": "De melding is in behandeling.",
+              "@language": "nl"
+            },
+            "statusdatum": "2025-06-02T11:00:00",
+            "statuswaarde": {
+              "@type": "Concept",
+              "@value": "http://example.com/code/inBehandeling"
+            },
+            "statuswijzigingDoor": {
+              "@type": "Agent",
+              "naam": "Alexander Potloot"
+            }
+          },
+          "webpagina": {
+            "@id": "https://www.mechelen.be/meldingsapplicatie"
+          },
+          "meldingsapplicatie": {
+            "@type": "Applicatie"
+          }
+        },
+        {
+          "datum": "2025-06-03T09:00:00",
+          "heeftBody": {
+            "@type": "Meldingbody",
+            "beschrijving": {
+              "@value": "Jozef meldt snelheidsovertredingen in de zone 30, wat de veiligheid van fietsers en voetgangers in gevaar brengt omdat auto’s te snel rijden.",
+              "@language": "nl"
+            },
+            "bijlage": {
+              "@type": "Document",
+              "@id": "http://example.com/documents/jozef-melding.pdf"
+            },
+            "verkeersincident": {
+              "@type": "Verkeersincident",
+              "datum": "2025-06-03",
+              "locatie": {
+                "@type": "Locatie",
+                "adres": {
+                  "straatnaam": {
+                    "@value": "Dorpstraat",
+                    "@language": "nl"
+                  },
+                  "gemeentenaam": {
+                    "@value": "Mechelen",
+                    "@language": "nl"
+                  }
+                }
+              },
+              "type": {
+                "@id": "http://example.com/code/snelheid"
+              }
+            }
+          },
+          "titel": {
+            "@value": "Snelheidsovertredingen in Dorpstraat door Jozef",
+            "@language": "nl"
+          },
+          "samenvatting": {
+            "@value": "Een kort overzicht van snelheidsovertredingen die de veiligheid van fietsers en voetgangers bedreigen.",
+            "@language": "nl"
+          },
+          "meldingstype": {
+            "@id": "http://example.com/code/verkeersincident"
+          },
+          "indiener": {
+            "@type": "Agent",
+            "naam": "Jozef"
+          },
+          "heeftStatus": {
+            "@type": "Meldingsstatus",
+            "beschrijving": {
+              "@value": "De melding is in behandeling.",
+              "@language": "nl"
+            },
+            "statusdatum": "2025-06-03T12:00:00",
+            "statuswaarde": {
+              "@type": "Concept",
+              "@value": "http://example.com/code/inBehandeling"
+            },
+            "statuswijzigingDoor": {
+              "@type": "Agent",
+              "naam": "Alexander Potloot"
+            }
+          },
+          "webpagina": {
+            "@id": "https://www.mechelen.be/meldingsapplicatie"
+          },
+          "meldingsapplicatie": {
+            "@type": "Applicatie"
+          }
+        },
+        {
+          "datum": "2025-06-04T09:00:00",
+          "heeftBody": {
+            "@type": "Meldingbody",
+            "beschrijving": {
+              "@value": "Karlien meldt snelheidsovertredingen in de zone 30, wat de veiligheid van fietsers en voetgangers in gevaar brengt omdat auto’s te snel rijden.",
+              "@language": "nl"
+            },
+            "bijlage": {
+              "@type": "Document",
+              "@id": "http://example.com/documents/karlien-melding.pdf"
+            },
+            "verkeersincident": {
+              "@type": "Verkeersincident",
+              "datum": "2025-06-04",
+              "locatie": {
+                "@type": "Locatie",
+                "adres": {
+                  "straatnaam": {
+                    "@value": "Dorpstraat",
+                    "@language": "nl"
+                  },
+                  "gemeentenaam": {
+                    "@value": "Mechelen",
+                    "@language": "nl"
+                  }
+                }
+              },
+              "type": {
+                "@id": "http://example.com/code/snelheid"
+              }
+            }
+          },
+          "titel": {
+            "@value": "Snelheidsovertredingen in Dorpstraat door Karlien",
+            "@language": "nl"
+          },
+          "samenvatting": {
+            "@value": "Een kort overzicht van snelheidsovertredingen die de veiligheid van fietsers en voetgangers bedreigen.",
+            "@language": "nl"
+          },
+          "meldingstype": {
+            "@id": "http://example.com/code/verkeersincident"
+          },
+          "indiener": {
+            "@type": "Agent",
+            "naam": "Karlien"
+          },
+          "heeftStatus": {
+            "@type": "Meldingsstatus",
+            "beschrijving": {
+              "@value": "De melding is in behandeling.",
+              "@language": "nl"
+            },
+            "statusdatum": "2025-06-04T13:00:00",
+            "statuswaarde": {
+              "@type": "Concept",
+              "@value": "http://example.com/code/inBehandeling"
+            },
+            "statuswijzigingDoor": {
+              "@type": "Agent",
+              "naam": "Alexander Potloot"
+            }
+          },
+          "webpagina": {
+            "@id": "https://www.mechelen.be/meldingsapplicatie"
+          },
+          "meldingsapplicatie": {
+            "@type": "Applicatie"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Sensor",
+      "ligging": {
+        "@type": "Locatie",
+        "coördinaten": "51.0256,4.4782"
+      },
+      "gehostDoor": {
+        "@type": "Toestel",
+        "fabrikant": {
+          "@value": "SensorTech Co.",
+          "@language": "nl"
+        },
+        "model": {
+          "@value": "ST-3000",
+          "@language": "nl"
+        },
+        "functie": {
+          "@type": "Functie",
+          "beschrijving": {
+            "@value": "De functionaliteit die nodig is zodat het Toestel de metingen van snelheidsovertredingen nauwkeurig kan registreren.",
+            "@language": "nl"
+          }
+        },
+        "taak": {
+          "@type": "Taak",
+          "beschrijving": {
+            "@value": "Doel waarvoor het Toestel is ontworpen: het monitoren en registreren van snelheidsovertredingen.",
+            "@language": "nl"
+          }
+        }
+      }
+    }
+  ]
+}
