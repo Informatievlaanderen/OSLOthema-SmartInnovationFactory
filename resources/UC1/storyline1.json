@@ -291,6 +291,64 @@
       ]
     },
     {
+      "@type": "Verkeersmeting",
+      "fenomeenTijd": {
+        "@type": "TemporeleEntiteit",
+        "startdatum": "2025-06-01",
+        "einddatum": "2025-06-04"
+      },
+      "resultaat": {
+        "@type": "ResultaatDetails",
+        "periode": {
+          "beginDatum": "2025-06-01",
+          "eindDatum": "2025-06-04"
+        },
+        "aantalGeflitsteVoertuigen": 50
+      },
+      "resultaatkwaliteit": {
+        "@type": "Kwaliteitselement",
+        "beschrijving": {
+          "@value": "Het gaat hier om gegevens die eigen zijn aan de Verkeersmeting en die complementair zijn aan de beschrijving van de procedure die bij de meting is gevolgd, zoals analysemethode en gebruikte Sensor, zoals beschreven in de klasse Observatieprocedure.",
+          "@language": "nl"
+        }
+      },
+      "resultaatTijd": {
+        "@type": "Moment"
+      },
+      "uitgevoerdDoor": {
+        "@type": "Agent",
+        "naam": "Flitspaal Dorpstraat"
+      },
+      "gaatOver": {
+        "@type": "Verkeersincident",
+        "datum": "2025-06-01",
+        "locatie": {
+          "@type": "Locatie",
+          "adres": {
+            "straatnaam": {
+              "@value": "Dorpstraat",
+              "@language": "nl"
+            },
+            "gemeentenaam": {
+              "@value": "Mechelen",
+              "@language": "nl"
+            }
+          }
+        },
+        "type": {
+          "@id": "http://example.com/code/snelheid"
+        }
+      },
+      "titel": {
+        "@value": "Verkeersmeting in Dorpstraat",
+        "@language": "nl"
+      },
+      "samenvatting": {
+        "@value": "Een kort overzicht van de verkeersmeting en geregistreerde snelheidsovertredingen in de Dorpstraat.",
+        "@language": "nl"
+      }
+    },
+    {
       "@type": "Sensor",
       "ligging": {
         "@type": "Locatie",
