@@ -2,16 +2,16 @@
   {
     "name": "smart-innovation-factory",
     "type": "ap",
-    "eap": "OSLO-SIF-AP.eap",
-    "diagram": "MijnApplicatieprofiel",
+    "eap": "OSLO-SIF.eap",
+    "diagram": "Verkeersmeldingen",
     "template": "SIF-ap.j2",
-    "title": "Smart Innovation Factory - Implementatiemodel",
+    "title": "Verkeersmeldingen (Implementatiemodel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2025-06-04",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
-    "contributors-column": "MijnKolom",
-    "site": "site-skeleton/SmartInnovationFactory-ap",
+    "contributors-column": "Rol",
+    "site": "site-skeleton/SIF-ap",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/Implementatiemodel-Smart-Innovation-factory/"
   }
