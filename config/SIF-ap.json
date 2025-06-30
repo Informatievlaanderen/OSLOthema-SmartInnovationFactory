@@ -1,6 +1,6 @@
 [
   {
-    "name": "smart-innovation-factory",
+    "name": "verkeersmeldingen",
     "type": "ap",
     "eap": "OSLO-SIF.eap",
     "diagram": "Verkeersmeldingen",
@@ -13,6 +13,6 @@
     "contributors-column": "Rol",
     "site": "site-skeleton/SIF-ap",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-SmartInnovationFactory/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/Implementatiemodel-Smart-Innovation-factory/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-verkeersmeldingen/"
   }
 ]
