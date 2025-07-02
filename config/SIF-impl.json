@@ -4,7 +4,7 @@
     "type": "ap",
     "eap": "OSLO-SIF.eap",
     "diagram": "Verkeersmeldingen",
-    "template": "SIF-ap.j2",
+    "template": "SIF-impl.j2",
     "title": "Verkeersmeldingen (Implementatiemodel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2025-06-04",
