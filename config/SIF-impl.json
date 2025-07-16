@@ -5,7 +5,7 @@
     "eap": "OSLO-SIF.eap",
     "diagram": "Verkeersmeldingen",
     "template": "SIF-impl.j2",
-    "title": "Verkeersmeldingen (Implementatiemodel)",
+    "title": "Implementatiemodel Verkeersmeldingen",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2025-06-04",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
