@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://test.data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04/context/verkeersmeldingen.jsonld",
+    "https://data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04/context/verkeersmeldingen.jsonld",
     "https://data.vlaanderen.be/context/Verkeersmetingen-ap.jsonld",
     "http://datex2.eu/vocab/3/Situation#",
     "http://data.vlaanderen.be/context/persoon-basis.jsonld",
