@@ -1,0 +1,215 @@
+{
+  "@context": [
+    "https://data.vlaanderen.be/doc/implementatiemodel/verkeersmeldingen/ontwerpstandaard/2025-06-04/context/verkeersmeldingen.jsonld",
+    "https://data.vlaanderen.be/context/Verkeersmetingen-ap.jsonld",
+    "http://data.vlaanderen.be/context/persoon-basis.jsonld",
+    {
+      "Zaak.activiteit": {
+        "@reverse": "https://data.vlaanderen.be/ns/dossier#vindtPlaatsTijdens"
+      },
+      "Zaak.agentInRol": {
+        "@reverse": "https://data.vlaanderen.be/ns/dossier#AgentInRol.Zaak"
+      },
+      "XSD.DateTime": "http://www.w3.org/2001/XMLSchema#DateTime",
+      "XSD.Time": "http://www.w3.org/2001/XMLSchema#Time",
+      "XSD.Date": "http://www.w3.org/2001/XMLSchema#Date"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "_:ZAAK001",
+      "@type": "Zaak",
+      "Zaak.naam": {
+        "@value": "Foutpakeerders Dorpstraat Mechelen",
+        "@language": "nl"
+      },
+      "Zaak.activiteit": [
+        {
+          "@id": "_:OBS001"
+        },
+        {
+          "@id": "_:OBS002"
+        },
+        {
+          "@id": "_:OBS003"
+        }
+      ],
+      "Zaak.behandelt": "_:COL001",
+      "Zaak.agentInRol": {
+        "@type": "Agent(InRol)",
+        "@id": "https://example.com/id/concept/agent/Mobiliteitsverantwoordelijke",
+        "Agent(InRol).rol": {
+          "@id": "https://example.com/id/concept/rol/Behandelaar"
+        },
+        "Agent(InRol).agent": {
+          "@id": "_:PERS001",
+          "@type": "Persoon"
+        }
+      }
+    },
+    {
+      "@id": "_:OBS001",
+      "@type": "Observatie",
+      "Observatie.geobserveerdKenmerk": {
+        "@id": "https://example.com/id/concept/kenmerktype/StijgingAantalMeldingen"
+      },
+      "Observatie.geobserveerdObject": {
+        "@id": "_:COL001"
+      },
+      "Observatie.fenomeentijd": {
+        "@type": "Periode",
+        "Periode.van": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-06-25T00:00:00",
+            "@type": "XSD.DateTime"
+          }
+        },
+        "Periode.tot": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-06-27T23:59:59",
+            "@type": "XSD.DateTime"
+          }
+        }
+      },
+      "Observatie.resultaat": {
+        "@id": "https://example.com/id/concept/stijgingtype/Sterk"
+      },
+      "Observatie.gebruikteProcedure": {
+        "@type": "Observatieprocedure",
+        "Observatieprocedure.input": [
+          {
+            "@id": "_:COL001"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "_:COL001",
+      "@type": "Observatieverzameling",
+      "Observatieverzameling.heeftLid": [
+        {
+          "@id": "_:MELD001"
+        }
+      ]
+    },
+    {
+      "@id": "_:MELD001",
+      "@type": "Melding",
+      "Melding.meldingstype": {
+        "@id": "https://example.com/id/concept/meldingtype/Foutparkeren"
+      },
+      "Melding.heeftDoelwit": {
+        "@type": [
+          "Adresvoorstelling",
+          "Object"
+        ],
+        "Adresvoorstelling.volledigAdres": "Dorpstraat 1, 2811 Mechelen"
+      },
+      "Melding.heeftStatus": {
+        "@type": "Meldingstatus",
+        "Meldingstatus.statusdatum": {
+          "@value": "2025-06-25",
+          "@type": "XSD.Date"
+        },
+        "Meldingstatus.beschrijving": {
+          "@value": "Melding in behandeling",
+          "@language": "nl"
+        },
+        "Meldingstatus.statusType": {
+          "@id": "https://example.com/id/concept/statuswaarde/inBehandeling"
+        },
+        "Meldingstatus.statuswijzigingDoor": {
+          "@id": "https://example.com/id/concept/agent/Mobiliteitsverantwoordelijke"
+        }
+      },
+      "Melding.titel": {
+        "@value": "Foutparkeerders Dorpstraat.",
+        "@language": "nl"
+      },
+      "Melding.samenvatting": {
+        "@value": "Sinds vorige week zijn er veel foutparkeerders in de Dorpstraat in Mechelen, kunnen hier maatregelen tegen getroffen worden?",
+        "@language": "nl"
+      }
+    },
+    {
+      "@id": "_:OBS002",
+      "@type": "Verkeersmeting",
+      "Observatie.geobserveerdKenmerk": {
+        "@id": "https://example.com/id/concept/kenmerktype/AantalvoertuigenPerdag"
+      },
+      "Observatie.geobserveerdObject": {
+        "@id": "https://example.com/id/wegsegment/Stationstraat",
+        "@type": "Wegsegment"
+      },
+      "Observatie.fenomeentijd": {
+        "@type": "Periode",
+        "Periode.van": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-06-25T00:00:00",
+            "@type": "XSD.DateTime"
+          }
+        },
+        "Periode.tot": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-06-27T23:59:59",
+            "@type": "XSD.DateTime"
+          }
+        }
+      },
+      "Observatie.resultaat": {
+        "@value": 1234
+      },
+      "Observatie.gebruikteProcedure": {
+        "@type": "Observatieprocedure",
+        "Observatieprocedure.input": [
+          {
+            "@id": "_:OBS001"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "_:OBS003",
+      "@type": "Verkeersmeting",
+      "Observatie.geobserveerdKenmerk": {
+        "@id": "https://example.com/id/concept/kenmerktype/AantalvoertuigenPerDag"
+      },
+      "Observatie.geobserveerdObject": {
+        "@id": "https://example.com/id/wegsegment/Kerklaan",
+        "@type": "Wegsegment"
+      },
+      "Observatie.fenomeentijd": {
+        "@type": "Periode",
+        "Periode.van": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-06-25T00:00:00",
+            "@type": "XSD.DateTime"
+          }
+        },
+        "Periode.tot": {
+          "@type": "Moment",
+          "Moment.inXSDDatumTijd": {
+            "@value": "2025-06-27T23:59:59",
+            "@type": "XSD.DateTime"
+          }
+        }
+      },
+      "Observatie.resultaat": {
+        "@value": 768
+      },
+      "Observatie.gebruikteProcedure": {
+        "@type": "Observatieprocedure",
+        "Observatieprocedure.input": [
+          {
+            "@id": "_:OBS001"
+          }
+        ]
+      }
+    }
+  ]
+}
