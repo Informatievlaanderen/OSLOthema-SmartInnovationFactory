@@ -1,31 +1,31 @@
-{% extends "impl.j2" %}
+{% extends "ap2.j2" %}
 
 {% block summary %}
-<p>
+    <p>
         Dit document beschrijft het implementatiemodel Verkeersmeldingen (vroeger: Smart Innovation Factory).
-        Dit model beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast worden. 
+        Dit model beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast worden.
         Daarbij worden de beperkingen (kardinaliteiten en codelijsten) toegelicht en de overeenkomstige (RDF) termen opgelijst.
-            </p>
+    </p>
     <p>
         De kern van dit model is de klasse Observatie, die fungeert als centrale verbinding tussen een verkeersmelding en-meting.
-        Observatie is ontworpen om informatie te verzamelen over een geobserveerd object dat door een (verkeers)melding als doelwit wordt beschouwd. 
+        Observatie is ontworpen om informatie te verzamelen over een geobserveerd object dat door een (verkeers)melding als doelwit wordt beschouwd.
         Voor meer details, zie het <a href="https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/">OSLO-applicatieprofiel Observaties en Metingen</a>.
         In geval van OSLO-Verkeersmeldingen kan het geobserveerde object  verschillende vormen aannemen: een verkeersobject zoals een voertuig of verkeersborden,
-        een verkeerssituatie zoals filevorming of sluipverkeer, en mobiliteitshinder, zoals een afgesloten straat. 
+        een verkeerssituatie zoals filevorming of sluipverkeer, en mobiliteitshinder, zoals een afgesloten straat.
     </p>
     <p>
-        Daarnaast kan de observatie betrekking hebben op verkeersmetingen, waarbij gegevens worden verzameld door sensoren volgens een vastgelegde observatieprocedure. 
-        Deze procedure zorgt voor consistentie en nauwkeurigheid in het verzamelen van data. Elke observatie maakt deel uit van een observatieverzameling, 
-        die een groter beeld van de verkeerssituatie biedt.  
-        Zie ook het <a href="https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/">OSLO-applicatieprofiel Verkeersmetingen</a> voor aanvullende informatie. 
-        Het model biedt flexibiliteit om diverse verkeerssituaties te accommoderen en heeft de potentie om  geïntegreerd te worden met contextuele data zoals camerabeelden, luchtvervuilingsmetingen en ongevallendata (dit kan een relevant vervolgtraject zijn). 
-       
+        Daarnaast kan de observatie betrekking hebben op verkeersmetingen, waarbij gegevens worden verzameld door sensoren volgens een vastgelegde observatieprocedure.
+        Deze procedure zorgt voor consistentie en nauwkeurigheid in het verzamelen van data. Elke observatie maakt deel uit van een observatieverzameling,
+        die een groter beeld van de verkeerssituatie biedt.
+        Zie ook het <a href="https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/">OSLO-applicatieprofiel Verkeersmetingen</a> voor aanvullende informatie.
+        Het model biedt flexibiliteit om diverse verkeerssituaties te accommoderen en heeft de potentie om geïntegreerd te worden met contextuele data zoals camerabeelden,
+        luchtvervuilingsmetingen en ongevallendata (dit kan een relevant vervolgtraject zijn).
     </p>
     <p>
-        Bovendien kunnen observaties, meldingen en verkeersmetingen behandeld worden als een Zaak via <a href="https://data.vlaanderen.be/doc/applicatieprofiel/dossier/">OSLO-Dossier</a>, 
+        Bovendien kunnen observaties, meldingen en verkeersmetingen behandeld worden als een Zaak via <a href="https://data.vlaanderen.be/doc/applicatieprofiel/dossier/">OSLO-Dossier</a>,
         waardoor elke casus afzonderlijk opgevolgd kan worden.
-        Tot slot ondersteunt dit implementatiemodel niet alleen het beheer van verkeersinformatie en het verbeteren van de besluitvorming, 
-        maar biedt het ook de mogelijkheid om beter geïnformeerde beslissingen te nemen en een efficiënter verkeersmanagement te realiseren, 
+        Tot slot ondersteunt dit implementatiemodel niet alleen het beheer van verkeersinformatie en het verbeteren van de besluitvorming,
+        maar biedt het ook de mogelijkheid om beter geïnformeerde beslissingen te nemen en een efficiënter verkeersmanagement te realiseren,
         in lijn met <a href="https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/">OSLO-Besluit Mobiliteit</a>.
     </p>{% endblock %}
 
