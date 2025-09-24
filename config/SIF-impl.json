@@ -6,7 +6,7 @@
     "diagram": "Verkeersmeldingen",
     "template": "SIF-impl.j2",
     "title": "Implementatiemodel Verkeersmeldingen",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
     "publication-date": "2025-06-04",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
